@@ -1,6 +1,6 @@
 # Ehtisham Mubarik
 
-**Senior DevOps / AI Platform Engineer** - Kubernetes, MLOps, and agentic systems in production.
+**Senior Platform & AI Infrastructure Engineer** - Kubernetes, MLOps, and GPU systems in production.
 CKA + CKAD certified · 7+ years building cloud and on-prem infrastructure for real-time, AI-native products.
 
 I build the platforms other engineers ship on: multi-tenant Kubernetes control planes, GPU and MLOps pipelines, observability, and the automation that keeps them reliable and cheap to run.
@@ -9,7 +9,7 @@ I build the platforms other engineers ship on: multi-tenant Kubernetes control p
 
 - **Kubernetes platforms** - multi-tenant control planes (Kamaji), GPU orchestration, MetalLB / K3s / Rancher, and bare-metal and air-gapped deployments for data-sovereign environments.
 - **AI / MLOps infrastructure** - AWS Bedrock, Ray distributed training and inference, Kubeflow / MLflow / Airflow, model serving, and cost-aware routing.
-- **Agentic systems** - production agent harnesses, including a LangGraph-driven SRE harness for incident triage, alert correlation, and token-optimized remediation; built with the Anthropic Claude Agent SDK.
+- **LLM systems for operations** - an SRE harness that ingests alerts, correlates them against logs and metrics, summarizes the incident, and gates remediation behind approval, with token budgets on every run. Built on LangGraph and the Anthropic Claude Agent SDK.
 - **Reliability & cost** - Prometheus / Grafana / Loki, SLOs, incident response, and FinOps. Cut AWS spend 60%+ on a real-time gaming platform.
 
 ### Selected background
@@ -45,6 +45,6 @@ I build the platforms other engineers ship on: multi-tenant Kubernetes control p
 
 ### Currently
 
-Open to senior DevOps, SRE, platform, and forward-deployed engineering work, and to genuinely hard infrastructure problems. I also run Eprecisio Technologies, a small infrastructure and DevOps consultancy.
+Founder at Eprecisio Technologies. Open to hands-on senior, founding, and forward-deployed engineering roles involving difficult infrastructure problems.
 
 📫 [LinkedIn](https://www.linkedin.com/in/ehtisham-mubarik) · [ehtisham@eprecisio.com](mailto:ehtisham@eprecisio.com)
