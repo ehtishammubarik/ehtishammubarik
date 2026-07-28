@@ -48,3 +48,5 @@ I build the platforms other engineers ship on: multi-tenant Kubernetes control p
 Founder at Eprecisio Technologies. Open to hands-on senior, founding, and forward-deployed engineering roles involving difficult infrastructure problems.
 
 📫 [LinkedIn](https://www.linkedin.com/in/ehtisham-mubarik) · [ehtisham@eprecisio.com](mailto:ehtisham@eprecisio.com)
+
+Eprecisio Technologies: [Website](https://eprecisio.com) · [LinkedIn](https://www.linkedin.com/company/eprecisio/) · [X](https://twitter.com/EprecisioTech) · [Instagram](https://www.instagram.com/eprecisiotech/) · [Facebook](https://www.facebook.com/EprecisioTechnologies)
