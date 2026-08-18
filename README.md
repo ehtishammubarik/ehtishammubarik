@@ -3,7 +3,10 @@
 **Senior Platform & AI Infrastructure Engineer** - Kubernetes, MLOps, and GPU systems in production.
 CKA + CKAD certified · 7+ years building cloud and on-prem infrastructure for real-time, AI-native products.
 
-🌐 **[ehtishammubarik.com](https://ehtishammubarik.com)** · 💼 **[Available for consulting on Upwork](https://www.upwork.com/freelancers/ehtishammubarik)**
+[![Website](https://img.shields.io/badge/Website-ehtishammubarik.com-007AFF?style=flat&logo=google-chrome&logoColor=white)](https://ehtishammubarik.com)
+[![Upwork](https://img.shields.io/badge/Upwork-Available%20for%20consulting-14A800?style=flat&logo=upwork&logoColor=white)](https://www.upwork.com/freelancers/ehtishammubarik)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Ehtisham%20Mubarik-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ehtisham-mubarik)
+[![Email](https://img.shields.io/badge/Email-ehtisham@eprecisio.com-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:ehtisham@eprecisio.com)
 
 I build the platforms other engineers ship on: multi-tenant Kubernetes control planes, GPU and MLOps pipelines, observability, and the automation that keeps them reliable and cheap to run.
 
@@ -42,13 +45,24 @@ I build the platforms other engineers ship on: multi-tenant Kubernetes control p
 
 ### Open source
 
-Tools I built because I needed them, then made good enough to hand to someone else. Both cores are
+Tools I built because I needed them, then made good enough to hand to someone else.
+
+One argument runs through both: **the failure that costs you is the one nothing reported.** A corpus
+that silently lost documents, a Terraform repo that passes `validate` and cannot `apply`. Both
+projects are built so the pipeline tells you what it did and what it dropped, and both cores are
 stdlib only, so they run in a locked-down container or an air-gapped build box.
 
-- **[websieve](https://github.com/ehtishammubarik/websieve)** - turn a web crawl into an ML-ready dataset. Boilerplate extraction, Gopher/C4 quality filtering, MinHash near-dedup, sharded output. The quality rules adapt to the writing system, so they do not silently reject Chinese, Japanese, Thai, and Korean the way English-derived rules do.
-- **[stackmason](https://github.com/ehtishammubarik/stackmason)** - answer some questions, get a Terraform repository that is secure by default. It **refuses** to emit a data port open to `0.0.0.0/0`, a publicly accessible database, or a committed credential. A generator multiplies whatever it emits, so the defaults are the product.
+**[websieve: turn a web crawl into an ML-ready dataset](https://github.com/ehtishammubarik/websieve)** [![PyPI](https://img.shields.io/pypi/v/websieve?color=3775A9&logo=pypi&logoColor=white)](https://pypi.org/project/websieve/) [![CI](https://github.com/ehtishammubarik/websieve/actions/workflows/ci.yml/badge.svg)](https://github.com/ehtishammubarik/websieve/actions/workflows/ci.yml)
+> Boilerplate extraction, Gopher/C4 quality filtering, MinHash near-dedup, sharded output. The quality rules adapt to the writing system, so they do not silently reject Chinese, Japanese, Thai, and Korean the way English-derived rules do. Every drop is attributed to a rule, and the counts reconcile.
+>
+> [PyPI](https://pypi.org/project/websieve/) · [Quickstart](https://github.com/ehtishammubarik/websieve/blob/master/docs/quickstart.md) · [Benchmarks](https://github.com/ehtishammubarik/websieve/blob/master/docs/benchmarks.md) · [Roadmap](https://github.com/ehtishammubarik/websieve/blob/master/ROADMAP.md)
 
-Both take contributions, and issues labelled `good first issue` are pre-scoped.
+**[stackmason: Terraform repositories that are secure by default](https://github.com/ehtishammubarik/stackmason)** [![PyPI](https://img.shields.io/pypi/v/stackmason?color=3775A9&logo=pypi&logoColor=white)](https://pypi.org/project/stackmason/) [![CI](https://github.com/ehtishammubarik/stackmason/actions/workflows/ci.yml/badge.svg)](https://github.com/ehtishammubarik/stackmason/actions/workflows/ci.yml)
+> Answer some questions, get a repository, not a snippet. It **refuses** to emit a data port open to `0.0.0.0/0`, a publicly accessible database, or a committed credential, and there will never be a flag that downgrades a refusal to a warning. A generator multiplies whatever it emits, so the defaults are the product.
+>
+> [PyPI](https://pypi.org/project/stackmason/) · [Guardrails](https://github.com/ehtishammubarik/stackmason#why-not-just-copy-a-blog-post) · [Roadmap](https://github.com/ehtishammubarik/stackmason/blob/master/ROADMAP.md) · [Contributing](https://github.com/ehtishammubarik/stackmason/blob/master/CONTRIBUTING.md)
+
+Both take contributions. Issues labelled [`good first issue`](https://github.com/ehtishammubarik/websieve/labels/good%20first%20issue) are pre-scoped, and each repo's `CONTRIBUTING.md` says how to claim one so two people do not build it twice.
 
 ### Certifications
 
