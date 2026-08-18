@@ -3,6 +3,8 @@
 **Senior Platform & AI Infrastructure Engineer** - Kubernetes, MLOps, and GPU systems in production.
 CKA + CKAD certified · 7+ years building cloud and on-prem infrastructure for real-time, AI-native products.
 
+🌐 **[ehtishammubarik.com](https://ehtishammubarik.com)** · 💼 **[Available for consulting on Upwork](https://www.upwork.com/freelancers/ehtishammubarik)**
+
 I build the platforms other engineers ship on: multi-tenant Kubernetes control planes, GPU and MLOps pipelines, observability, and the automation that keeps them reliable and cheap to run.
 
 ### What I work on
@@ -38,6 +40,16 @@ I build the platforms other engineers ship on: multi-tenant Kubernetes control p
 ![Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat&logo=apache-kafka&logoColor=white)
 ![LangGraph](https://img.shields.io/badge/LangChain%20%2F%20LangGraph-1C3C3C?style=flat&logo=langchain&logoColor=white)
 
+### Open source
+
+Tools I built because I needed them, then made good enough to hand to someone else. Both cores are
+stdlib only, so they run in a locked-down container or an air-gapped build box.
+
+- **[websieve](https://github.com/ehtishammubarik/websieve)** - turn a web crawl into an ML-ready dataset. Boilerplate extraction, Gopher/C4 quality filtering, MinHash near-dedup, sharded output. The quality rules adapt to the writing system, so they do not silently reject Chinese, Japanese, Thai, and Korean the way English-derived rules do.
+- **[stackmason](https://github.com/ehtishammubarik/stackmason)** - answer some questions, get a Terraform repository that is secure by default. It **refuses** to emit a data port open to `0.0.0.0/0`, a publicly accessible database, or a committed credential. A generator multiplies whatever it emits, so the defaults are the product.
+
+Both take contributions, and issues labelled `good first issue` are pre-scoped.
+
 ### Certifications
 
 - Certified Kubernetes Administrator (CKA) - The Linux Foundation
@@ -47,6 +59,6 @@ I build the platforms other engineers ship on: multi-tenant Kubernetes control p
 
 Founder at Eprecisio Technologies. Open to hands-on senior, founding, and forward-deployed engineering roles involving difficult infrastructure problems.
 
-📫 [LinkedIn](https://www.linkedin.com/in/ehtisham-mubarik) · [ehtisham@eprecisio.com](mailto:ehtisham@eprecisio.com)
+📫 [ehtishammubarik.com](https://ehtishammubarik.com) · [Upwork](https://www.upwork.com/freelancers/ehtishammubarik) · [LinkedIn](https://www.linkedin.com/in/ehtisham-mubarik) · [ehtisham@eprecisio.com](mailto:ehtisham@eprecisio.com)
 
 Eprecisio Technologies: [Website](https://eprecisio.com) · [LinkedIn](https://www.linkedin.com/company/eprecisio/) · [X](https://twitter.com/EprecisioTech) · [Instagram](https://www.instagram.com/eprecisiotech/) · [Facebook](https://www.facebook.com/EprecisioTechnologies)
