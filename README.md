@@ -47,10 +47,16 @@ I build the platforms other engineers ship on: multi-tenant Kubernetes control p
 
 Tools I built because I needed them, then made good enough to hand to someone else.
 
-One argument runs through both: **the failure that costs you is the one nothing reported.** A corpus
-that silently lost documents, a Terraform repo that passes `validate` and cannot `apply`. Both
-projects are built so the pipeline tells you what it did and what it dropped, and both cores are
-stdlib only, so they run in a locked-down container or an air-gapped build box.
+One argument runs through all three: **the failure that costs you is the one nothing reported.** A
+corpus that silently lost documents. A Terraform repo that passes `validate` and cannot `apply`. A
+GPU dashboard that reads 100% while the machine does nothing. Each of these is built so the system
+tells you what it actually did, and each runs with no runtime dependencies, so it works in a
+locked-down container or an air-gapped build box.
+
+**[truthscale: your GPU is not 90% busy](https://github.com/ehtishammubarik/truthscale)** [![CI](https://github.com/ehtishammubarik/truthscale/actions/workflows/ci.yml/badge.svg)](https://github.com/ehtishammubarik/truthscale/actions/workflows/ci.yml)
+> `nvidia-smi` reports "utilization" and means "a kernel was resident". One small kernel on 1 of an H100's 132 SMs reads 100%. LLM decode pins it there while the tensor cores idle, and production clusters average 5% real utilization behind healthy-looking dashboards. truthscale reports SM occupancy beside the flag, explains the gap in words, and refuses to render an unmeasured counter as zero.
+>
+> [The thesis](https://github.com/ehtishammubarik/truthscale#readme) · [Metric definitions](https://github.com/ehtishammubarik/truthscale/blob/master/docs/metrics.md) · [Roadmap](https://github.com/ehtishammubarik/truthscale/blob/master/ROADMAP.md) · Go, no runtime dependencies
 
 **[websieve: turn a web crawl into an ML-ready dataset](https://github.com/ehtishammubarik/websieve)** [![PyPI](https://img.shields.io/pypi/v/websieve?color=3775A9&logo=pypi&logoColor=white)](https://pypi.org/project/websieve/) [![CI](https://github.com/ehtishammubarik/websieve/actions/workflows/ci.yml/badge.svg)](https://github.com/ehtishammubarik/websieve/actions/workflows/ci.yml)
 > Boilerplate extraction, Gopher/C4 quality filtering, MinHash near-dedup, sharded output. The quality rules adapt to the writing system, so they do not silently reject Chinese, Japanese, Thai, and Korean the way English-derived rules do. Every drop is attributed to a rule, and the counts reconcile.
